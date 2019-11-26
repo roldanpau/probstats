@@ -1,5 +1,4 @@
-"""
-Consider the experiment of throwing a die n times, 
+""" Consider the experiment of throwing a die n times, 
 and let X_k = "score in the k-th trow".
 Then the sequence of RVs X_1, X_2, ... is IID, 
 each with a given probability distribution, 
@@ -15,7 +14,7 @@ formula, and plots the distribution of S_n for different values of n."""
 
 import matplotlib.pyplot as plt
 
-n=10 # Number of throws of the die
+n=5 # Number of throws of the die
 
 # pmf of X="score in one throw".
 probs = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
